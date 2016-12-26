@@ -1,5 +1,5 @@
 # Bagaan (বাগান) 
-An image classifier for gardens using local binary patterns
+Bagaan uses [local binary patterns](https://en.wikipedia.org/wiki/Local_binary_patterns) for classifying an image. Then it uses supervised machine learning with [LinearSVC](https://en.wikipedia.org/wiki/Support_vector_machine) to predict if a given image is a garden or not. 
 
 #Requires 
 - OpenCV 3.0
